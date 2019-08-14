@@ -8,15 +8,32 @@ class Monaviscompte_Widget_Model_Observer
     	$order->loadByIncrementId($incrementId);
 		
 		$data = array();
-		$data['item_id'] = Mage::getStoreConfig('mac_widget/general/item_id');
 		$data['private_key'] = Mage::getStoreConfig('mac_widget/general/api_key');
-		$data['order_id'] = $order->id;
+		$data['order_id'] = $order->getId();
 		$data['source'] = 'magento';
 		$data['recipient'] = $order->getCustomerEmail();
 
-		if (!empty($customer->firstname)) {
+		if (!empty($order->getCustomerName())) {
 			$data['first_name'] = $order->getCustomerName();
 		}
+		
+		$serializedProducts = array();
+
+		$i = 0;
+		foreach($order->getAllVisibleItems() as $item) {
+			$productId = $item->getProductId();
+			$productObject = Mage::getModel('catalog/product');
+			$_product = $productObject->load($productId);
+			$serializedProducts['products'][$i] = array(
+				"id" => strval($productId),
+				"name" => $_product->getName(),
+				"summary" => $_product->getShortDescription(),
+				"picture" => $_product->getImageUrl()
+			);
+			$i++;
+		}
+		
+		$data['cart'] = json_encode($serializedProducts);
 
 		$curl = curl_init();
 		curl_setopt($curl, CURLOPT_URL, "https://api.monaviscompte.fr/post-purchase/create/");
