@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package>
+    <name>monaviscompte_widget</name>
+    <version>0.0.1</version>
+    <stability>devel</stability>
+    <license>AFL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Permet d&#x2019;installer en quelques minutes une vignette de notation sur votre site pour assurer vos visiteurs</summary>
+    <description>Ce module permet d&#x2019;installer en quelques minutes une vignette de notation (widget) sur votre site pour une collecte imm&#xE9;diate d&#x2019;avis de vos clients. &#xD;
+- Am&#xE9;liorez d&#xE8;s les premiers avis votre r&#xE9;f&#xE9;rencement sur les moteurs de recherche &#xD;
+- Multipliez vos commandes gr&#xE2;ce &#xE0; la puissance des avis (+15% de ventes d&#xE8;s le premier avis) &#xD;
+- Am&#xE9;liorez votre service et innovez gr&#xE2;ce au contenu des avis &#xD;
+- Affirmez votre culture client et diff&#xE9;renciez vous de vos concurrents</description>
+    <notes>Initial release</notes>
+    <authors><author><name>Bastien Libersa</name><user>monaviscompte</user><email>support@monaviscompte.fr</email></author></authors>
+    <date>2016-02-17</date>
+    <time>16:09:20</time>
+    <contents></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.3.2</min><max>6.0.0</max></php></required></dependencies>
+</package>

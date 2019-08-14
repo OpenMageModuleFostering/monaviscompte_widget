@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/monaviscompte_widget",
+    "type": "magento-module",
+    "license": "AFL",
+    "homepage": "",
+    "description": "Permet d’installer en quelques minutes une vignette de notation sur votre site pour assurer vos visiteurs",
+    "authors": [
+    {
+        "name": "Bastien Libersa",
+        "email": "support@monaviscompte.fr"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
