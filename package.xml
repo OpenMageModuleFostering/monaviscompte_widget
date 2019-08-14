@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
     <name>monaviscompte_widget</name>
-    <version>0.0.3</version>
+    <version>0.0.4</version>
     <stability>devel</stability>
     <license>AFL</license>
     <channel>community</channel>
@@ -16,9 +16,9 @@
 Il permet &#xE9;galement d'automatiser l'envoi de mails de collecte post-achat.</description>
     <notes>Added automatic post-purchase review collection</notes>
     <authors><author><name>Bastien Libersa</name><user>monaviscompte</user><email>support@monaviscompte.fr</email></author></authors>
-    <date>2016-04-15</date>
-    <time>13:53:54</time>
-    <contents><target name="magelocal"><dir name="Monaviscompte"><dir name="Widget"><dir name="Block"><file name="Widget.php" hash="ca97bf17ed4650581260115be08f7868"/></dir><dir name="Helper"><file name="Data.php" hash="49b54fecf098b9154698b092c7f2af5c"/></dir><dir name="Model"><file name="Observer.php" hash="63e39091680956a9daf83a3e43a81af6"/></dir><dir name="etc"><file name="config.xml" hash="91c22fa29d6e39458757254cea9310fb"/><file name="system.xml" hash="1858e0e1897ae13023c677f4f66477ba"/><file name="widget.xml" hash="67ebcbd3a199e104bd500b710c76317c"/><file name=".DS_Store" hash="194577a7e20bdcc7afbb718f502c134c"/></dir><file name=".DS_Store" hash="194577a7e20bdcc7afbb718f502c134c"/></dir></dir></target></contents>
+    <date>2016-05-25</date>
+    <time>15:31:31</time>
+    <contents><target name="magelocal"><dir name="Monaviscompte"><dir name="Widget"><dir name="Block"><file name="Widget.php" hash="ca97bf17ed4650581260115be08f7868"/></dir><dir name="Helper"><file name="Data.php" hash="49b54fecf098b9154698b092c7f2af5c"/></dir><dir name="Model"><file name="Observer.php" hash="63e39091680956a9daf83a3e43a81af6"/></dir><dir name="etc"><file name="config.xml" hash="356278bfb847d617ebe8a19f05f76082"/><file name="system.xml" hash="1858e0e1897ae13023c677f4f66477ba"/><file name="widget.xml" hash="67ebcbd3a199e104bd500b710c76317c"/><file name=".DS_Store" hash="194577a7e20bdcc7afbb718f502c134c"/></dir><file name=".DS_Store" hash="194577a7e20bdcc7afbb718f502c134c"/></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Monaviscompte_Widget.xml" hash="c6ffb10b5a1aaf4e26cb8daa8b34ffaf"/></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>5.3.2</min><max>6.0.0</max></php></required></dependencies>
 </package>
