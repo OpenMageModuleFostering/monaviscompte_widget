@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
     <name>monaviscompte_widget</name>
-    <version>0.0.1</version>
+    <version>0.0.2</version>
     <stability>devel</stability>
     <license>AFL</license>
     <channel>community</channel>
@@ -12,11 +12,11 @@
 - Multipliez vos commandes gr&#xE2;ce &#xE0; la puissance des avis (+15% de ventes d&#xE8;s le premier avis) &#xD;
 - Am&#xE9;liorez votre service et innovez gr&#xE2;ce au contenu des avis &#xD;
 - Affirmez votre culture client et diff&#xE9;renciez vous de vos concurrents</description>
-    <notes>Initial release</notes>
+    <notes>Fixed an error</notes>
     <authors><author><name>Bastien Libersa</name><user>monaviscompte</user><email>support@monaviscompte.fr</email></author></authors>
     <date>2016-02-17</date>
-    <time>16:09:20</time>
-    <contents></contents>
+    <time>16:21:52</time>
+    <contents><target name="magelocal"><dir name="Monaviscompte"><dir name="Widget"><dir name="Block"><file name="Widget.php" hash="e7a4415e475b6b20d9d698ef7be549c8"/></dir><dir name="Helper"><file name="Data.php" hash="8ae743c1b0f2b50ac5833ac61aa94064"/></dir><dir name="etc"><file name="config.xml" hash="1fcb5c9cac97ce81ce63068aac24b3d8"/><file name="widget.xml" hash="a5b07f5c34ae16761767261d48c5ad7f"/></dir><file name=".DS_Store" hash="194577a7e20bdcc7afbb718f502c134c"/></dir></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>5.3.2</min><max>6.0.0</max></php></required></dependencies>
 </package>

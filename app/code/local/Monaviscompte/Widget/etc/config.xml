@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <Monaviscompte_Widget>
+      <version>0.0.1</version>
+    </Monaviscompte_Widget>
+  </modules>
+  <global>
+    <helpers>
+      <mac_widget>
+        <class>Monaviscompte_Widget_Helper</class>
+      </mac_widget>
+    </helpers>
+    <blocks>
+      <mac_widget>
+        <class>Monaviscompte_Widget_Block</class>
+      </mac_widget>
+    </blocks>
+  </global>
+</config>
