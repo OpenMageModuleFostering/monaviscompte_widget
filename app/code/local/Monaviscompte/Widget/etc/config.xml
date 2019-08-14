@@ -2,7 +2,7 @@
 <config>
   <modules>
     <Monaviscompte_Widget>
-      <version>0.0.1</version>
+      <version>0.0.2</version>
     </Monaviscompte_Widget>
   </modules>
   <global>
@@ -11,10 +11,47 @@
         <class>Monaviscompte_Widget_Helper</class>
       </mac_widget>
     </helpers>
+    <models>
+	  <mac_widget>
+        <class>Monaviscompte_Widget_Model</class>
+      </mac_widget>
+    </models>
     <blocks>
       <mac_widget>
         <class>Monaviscompte_Widget_Block</class>
       </mac_widget>
     </blocks>
+    <events>
+      <checkout_onepage_controller_success_action>
+        <observers>
+          <mac_observer>
+            <type>singleton</type>
+            <class>Monaviscompte_Widget_Model_Observer</class>
+            <method>send_post_purchase_email</method>
+          </mac_observer>
+        </observers>
+      </checkout_onepage_controller_success_action>
+    </events>
   </global>
+  <adminhtml>
+    <acl>
+      <resources>
+        <admin>
+          <children>
+            <system>
+              <children>
+                <config>
+                  <children>
+                    <mac_widget>
+                      <title>Configuration</title>
+                    </mac_widget>
+                  </children>
+                </config>
+              </children>
+            </system>
+          </children>
+        </admin>
+      </resources>
+    </acl>
+  </adminhtml>
 </config>

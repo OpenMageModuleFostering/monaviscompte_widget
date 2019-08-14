@@ -1,22 +1,24 @@
 <?xml version="1.0"?>
 <package>
     <name>monaviscompte_widget</name>
-    <version>0.0.2</version>
+    <version>0.0.3</version>
     <stability>devel</stability>
     <license>AFL</license>
     <channel>community</channel>
     <extends/>
-    <summary>Permet d&#x2019;installer en quelques minutes une vignette de notation sur votre site pour assurer vos visiteurs</summary>
+    <summary>Permet d&#x2019;installer en quelques minutes une vignette de notation sur votre site pour assurer vos visiteurs et d'envoyer automatiquement des emails de collecte d'avis post-achat</summary>
     <description>Ce module permet d&#x2019;installer en quelques minutes une vignette de notation (widget) sur votre site pour une collecte imm&#xE9;diate d&#x2019;avis de vos clients. &#xD;
 - Am&#xE9;liorez d&#xE8;s les premiers avis votre r&#xE9;f&#xE9;rencement sur les moteurs de recherche &#xD;
 - Multipliez vos commandes gr&#xE2;ce &#xE0; la puissance des avis (+15% de ventes d&#xE8;s le premier avis) &#xD;
 - Am&#xE9;liorez votre service et innovez gr&#xE2;ce au contenu des avis &#xD;
-- Affirmez votre culture client et diff&#xE9;renciez vous de vos concurrents</description>
-    <notes>Fixed an error</notes>
+- Affirmez votre culture client et diff&#xE9;renciez vous de vos concurrents&#xD;
+&#xD;
+Il permet &#xE9;galement d'automatiser l'envoi de mails de collecte post-achat.</description>
+    <notes>Added automatic post-purchase review collection</notes>
     <authors><author><name>Bastien Libersa</name><user>monaviscompte</user><email>support@monaviscompte.fr</email></author></authors>
-    <date>2016-02-17</date>
-    <time>16:21:52</time>
-    <contents><target name="magelocal"><dir name="Monaviscompte"><dir name="Widget"><dir name="Block"><file name="Widget.php" hash="e7a4415e475b6b20d9d698ef7be549c8"/></dir><dir name="Helper"><file name="Data.php" hash="8ae743c1b0f2b50ac5833ac61aa94064"/></dir><dir name="etc"><file name="config.xml" hash="1fcb5c9cac97ce81ce63068aac24b3d8"/><file name="widget.xml" hash="a5b07f5c34ae16761767261d48c5ad7f"/></dir><file name=".DS_Store" hash="194577a7e20bdcc7afbb718f502c134c"/></dir></dir></target></contents>
+    <date>2016-04-15</date>
+    <time>13:53:54</time>
+    <contents><target name="magelocal"><dir name="Monaviscompte"><dir name="Widget"><dir name="Block"><file name="Widget.php" hash="ca97bf17ed4650581260115be08f7868"/></dir><dir name="Helper"><file name="Data.php" hash="49b54fecf098b9154698b092c7f2af5c"/></dir><dir name="Model"><file name="Observer.php" hash="63e39091680956a9daf83a3e43a81af6"/></dir><dir name="etc"><file name="config.xml" hash="91c22fa29d6e39458757254cea9310fb"/><file name="system.xml" hash="1858e0e1897ae13023c677f4f66477ba"/><file name="widget.xml" hash="67ebcbd3a199e104bd500b710c76317c"/><file name=".DS_Store" hash="194577a7e20bdcc7afbb718f502c134c"/></dir><file name=".DS_Store" hash="194577a7e20bdcc7afbb718f502c134c"/></dir></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>5.3.2</min><max>6.0.0</max></php></required></dependencies>
 </package>

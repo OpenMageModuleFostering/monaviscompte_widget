@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<config>
+  <sections>
+    <mac_widget translate="label" module="adminhtml">
+      <label>monaviscompte</label>
+      <tab>sales</tab>
+      <frontend_type>text</frontend_type>
+      <sort_order>900</sort_order>
+      <show_in_default>1</show_in_default>
+      <show_in_website>1</show_in_website>
+      <show_in_store>0</show_in_store>
+      <groups>
+        <general translate="label">
+          <label>Configuration</label>
+          <frontend_type>text</frontend_type>
+          <sort_order>1</sort_order>
+          <show_in_default>1</show_in_default>
+          <show_in_website>1</show_in_website>
+          <show_in_store>0</show_in_store>
+          <fields>
+          	<item_id translate="label">
+          		<label>Identifiant de la fiche</label>
+          		<frontend_type>text</frontend_type>
+          		<show_in_default>1</show_in_default>
+          		<show_in_website>1</show_in_website>
+          		<show_in_store>0</show_in_store>
+          	</item_id>
+          	<access_key translate="label">
+          		<label>Clé d'accès</label>
+          		<frontend_type>text</frontend_type>
+          		<show_in_default>1</show_in_default>
+          		<show_in_website>1</show_in_website>
+          		<show_in_store>0</show_in_store>
+          	</access_key>
+          	<api_key translate="label">
+          		<label>Clé d'API</label>
+          		<frontend_type>text</frontend_type>
+          		<sort_order>3</sort_order>
+          		<show_in_default>1</show_in_default>
+          		<show_in_website>1</show_in_website>
+          		<show_in_store>0</show_in_store>
+          	</api_key>
+          </fields>
+        </general>
+      </groups>
+    </mac_widget>
+  </sections>
+</config>

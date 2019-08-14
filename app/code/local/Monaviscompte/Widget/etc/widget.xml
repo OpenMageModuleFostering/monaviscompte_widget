@@ -3,19 +3,5 @@
   <mac_widget type="mac_widget/widget" translate="name description" module="mac_widget">
     <name>monaviscompte widget</name>
     <description>Allows to display the monaviscompte widget</description>
-    <parameters>
-      <item_id>
-        <label>Item identifier</label>
-        <visible>1</visible>
-        <required>1</required>
-        <type>text</type>
-      </item_id>
-      <access_key>
-        <label>Access key</label>
-        <visible>1</visible>
-        <required>1</required>
-        <type>text</type>
-      </access_key>
-    </parameters>
   </mac_widget>
 </widgets>
