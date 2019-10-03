@@ -1,3 +1,5 @@
+
+
 ## Original Package Description
 
 Permet d’installer en quelques minutes une vignette de notation sur votre site pour assurer vos visiteurs et d'envoyer automatiquement des emails de collecte d'avis post-achat
