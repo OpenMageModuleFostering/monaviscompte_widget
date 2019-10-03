@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/monaviscompte_widget",
+    "name": "OpenMageModuleFostering\/monaviscompte_widget",
     "type": "magento-module",
     "license": "AFL",
     "homepage": "",
-    "description": "Permet d’installer en quelques minutes une vignette de notation sur votre site pour assurer vos visiteurs et d'envoyer automatiquement des emails de collecte d'avis post-achat",
+    "description": "Permet d\u2019installer en quelques minutes une vignette de notation sur votre site pour assurer vos visiteurs et d'envoyer automatiquement des emails de collecte d'avis post-achat",
     "authors": [
-    {
-        "name": "Bastien Libersa",
-        "email": "support@monaviscompte.fr"
-    }
-],
+        {
+            "name": "Bastien Libersa",
+            "email": "support@monaviscompte.fr"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
